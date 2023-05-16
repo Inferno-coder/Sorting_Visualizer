@@ -16,7 +16,7 @@ randomize_array.addEventListener("click",function(){
     bars_container.innerHTML="";
     renderbars(unsortedarray);
 });
-
+//creating random array to generate bars
 function createrandomarray()
 {
 for(let i=0;i<numofbars;i++){
